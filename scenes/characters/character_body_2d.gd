@@ -1,7 +1,7 @@
 extends CharacterBody2D
 class_name Player
 
-const SPEED = 400.0
+const SPEED = 300.0
 const JUMP_VELOCITY = -750.0
 @onready var sprite = $Sprite2D
 
@@ -30,7 +30,7 @@ func _physics_process(delta):
 	if direction:
 		velocity.x = direction * SPEED
 	else:
-		velocity.x = move_toward(velocity.x, 0, 12)
+		velocity.x = move_toward(velocity.x, 0, 50)
 
 	move_and_slide()
 	update_animation()
