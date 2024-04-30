@@ -1,0 +1,50 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1714480454
+game_manager.gd::GDScript::-1::1714391075::0::1::::GameManager<>Node<>::
+Global.gd::GDScript::-1::1714397640::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::2285213891041924187::1714311925::1714311930::1::::<><>::
+::res://art/::1714392653
+::res://art/background/::1714383847
+Brown.png::CompressedTexture2D::920246295607629855::1714334396::1714383847::1::::<><>::
+Green.png::CompressedTexture2D::7976253871136605737::1714312041::1714383847::1::::<><>::
+Yellow.png::CompressedTexture2D::4053607907434140627::1714333348::1714383847::1::::<><>::
+::res://art/collectable/::1714383847
+Strawberry.png::CompressedTexture2D::8986820896709765933::1714319156::1714383847::1::::<><>::
+::res://art/end/::1714383847
+End (Idle).png::CompressedTexture2D::3102541697578475016::1714322932::1714383847::1::::<><>::
+End (Pressed) (64x64).png::CompressedTexture2D::153183755864661857::1714323471::1714383847::1::::<><>::
+::res://art/logo/::1714383848
+logo.png::CompressedTexture2D::1531238216241932323::1714334323::1714383848::1::::<><>::
+::res://art/main_character/::1714383847
+Fall (32x32).png::CompressedTexture2D::6763821801675856450::1714382696::1714383847::1::::<><>::
+Idle (32x32).png::CompressedTexture2D::7768683967998688735::1714314956::1714383847::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::2255870378603847772::1714312848::1714383847::1::::<><>::
+Run (32x32).png::CompressedTexture2D::661658484943165652::1714315283::1714383847::1::::<><>::
+::res://art/spikes/::1714390323
+Idle.png::CompressedTexture2D::4398276618818866474::1714390323::1714390323::1::::<><>::
+::res://art/start/::1714392653
+Start (Idle).png::CompressedTexture2D::3946974639334701684::1714391969::1714392653::1::::<><>::
+Start (Moving) (64x64).png::CompressedTexture2D::5293458195544972541::1714391972::1714392653::1::::<><>::
+::res://art/terrain/::1714383847
+Terrain (16x16).png::CompressedTexture2D::4635546571743507071::1714312237::1714383847::1::::<><>::
+::res://scenes/::1714397639
+::res://scenes/characters/::1714467591
+character_body_2d.gd::GDScript::-1::1714467544::0::1::::Player<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::9036010975856338635::1714467591::0::1::::<><>::res://scenes/characters/character_body_2d.gd<>uid://7e04daqxkty7::::res://art/main_character/Jump (32x32).png<>uid://dixhdb71bxql8::::res://art/main_character/Idle (32x32).png<>uid://c3mpfllq3xryw::::res://art/main_character/Fall (32x32).png<>uid://joroh41gfu81::::res://art/main_character/Run (32x32).png
+::res://scenes/collectable/::1714397221
+collectable.gd::GDScript::-1::1714320934::0::1::::<>Area2D<>::
+collectable.tscn::PackedScene::2488265431685171341::1714397221::0::1::::<><>::uid://d1bjvlaulkgif::::res://art/collectable/Strawberry.png<>res://scenes/collectable/collectable.gd
+::res://scenes/global/::1714467591
+global.tscn::PackedScene::4028089653058442029::1714467591::0::1::::<><>::res://Global.gd
+::res://scenes/levels/::1714467591
+level_1.tscn::PackedScene::903109034371390981::1714467591::0::1::::<><>::res://game_manager.gd<>uid://dlv00aykfom46::::res://art/background/Green.png<>uid://b7bq1lv0o5bj0::::res://art/terrain/Terrain (16x16).png<>uid://d10d1smqx55ox::::res://scenes/characters/character_body_2d.tscn<>uid://bbplmrstv2tfp::::res://scenes/collectable/collectable.tscn<>uid://dv0y5rscereo4::::res://scenes/shared/win_point.tscn<>uid://b8ou3aisdg7in::::res://scenes/levels/level_2.tscn<>uid://bj0xh0musjobk::::res://scenes/shared/trap.tscn<>uid://yg3p4xa2yp0n::::res://scenes/shared/start_point.tscn
+level_2.tscn::PackedScene::4732818167570228029::1714467591::0::1::::<><>::res://game_manager.gd<>uid://bx0ulhqfoh46j::::res://art/background/Yellow.png<>uid://b7bq1lv0o5bj0::::res://art/terrain/Terrain (16x16).png<>uid://d10d1smqx55ox::::res://scenes/characters/character_body_2d.tscn<>uid://dv0y5rscereo4::::res://scenes/shared/win_point.tscn<>uid://p1hc8gwyaedb::::res://scenes/main_menu/main_menu.tscn<>uid://bbplmrstv2tfp::::res://scenes/collectable/collectable.tscn
+::res://scenes/main_menu/::1714383847
+main_menu.gd::GDScript::-1::1714381702::0::1::::<>Node<>::
+main_menu.tscn::PackedScene::1106936810284252343::1714383847::0::1::::<><>::res://scenes/main_menu/main_menu.gd<>uid://v20jf1qiailn::::res://art/logo/logo.png<>uid://nd1k7jokd11l::::res://art/background/Brown.png
+::res://scenes/shared/::1714467591
+start_point.tscn::PackedScene::1698646935287868619::1714467591::0::1::::<><>::uid://bwh7ditobsc7m::::res://art/start/Start (Idle).png<>uid://chogqopvrul7b::::res://art/start/Start (Moving) (64x64).png
+trap.gd::GDScript::-1::1714398307::0::1::::<>Area2D<>::
+trap.tscn::PackedScene::3071140044232388940::1714467591::0::1::::<><>::res://scenes/shared/trap.gd<>uid://b3ws8dfg2dboc::::res://art/spikes/Idle.png
+win_point.gd::GDScript::-1::1714381403::0::1::::<>Area2D<>::
+win_point.tscn::PackedScene::8686348913773341073::1714383857::0::1::::<><>::uid://bkg5n5gt8f41i::::res://art/end/End (Idle).png<>res://scenes/shared/win_point.gd

@@ -1,0 +1,14 @@
+Node
+CollisionShape2D
+Polygon2D
+AnimatedSprite2D
+Area2D
+CollisionPolygon2D
+AnimationPlayer
+Sprite2D
+Button
+TextureRect
+Label
+Panel
+CanvasLayer
+MultiplayerSynchronizer

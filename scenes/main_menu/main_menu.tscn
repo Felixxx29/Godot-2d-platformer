@@ -1,0 +1,86 @@
+[gd_scene load_steps=4 format=3 uid="uid://p1hc8gwyaedb"]
+
+[ext_resource type="Script" path="res://scenes/main_menu/main_menu.gd" id="1_4odf5"]
+[ext_resource type="Texture2D" uid="uid://v20jf1qiailn" path="res://art/logo/logo.png" id="1_fd62g"]
+[ext_resource type="Texture2D" uid="uid://nd1k7jokd11l" path="res://art/background/Brown.png" id="2_01tsp"]
+
+[node name="MainMenu" type="Node"]
+script = ExtResource("1_4odf5")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_01tsp")
+stretch_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -322.0
+offset_top = -122.0
+offset_right = 331.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_fd62g")
+
+[node name="level1" type="Button" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -283.0
+offset_top = 37.0
+offset_right = -61.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 1"
+
+[node name="level2" type="Button" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 70.0
+offset_top = 37.0
+offset_right = 292.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 2"
+
+[node name="exit" type="Button" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -284.0
+offset_top = 199.0
+offset_right = 292.0
+offset_bottom = 249.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 30
+text = "Exit"
+
+[connection signal="pressed" from="level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="level2" to="." method="_on_level_2_pressed"]
+[connection signal="button_up" from="exit" to="." method="_on_exit_button_up"]
+[connection signal="pressed" from="exit" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]
